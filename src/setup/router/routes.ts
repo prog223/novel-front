@@ -9,7 +9,7 @@ import Profile from '../../pages/Profile/Profile';
 import Register from '../../pages/Register/Register';
 import { ERoutePaths, TRoutePageType } from './types';
 
-export const Routes: TRoutePageType[] = [
+export const RoutesList: TRoutePageType[] = [
 	{
 		path: ERoutePaths.Home,
 		element: Home,
